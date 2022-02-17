@@ -1,0 +1,157 @@
+body {
+    background-color: #F6F7FD;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.MainContainer {
+    position: absolute;
+    width: 1170px;
+    height: 928.19px;
+    top: 65.81px;
+    text-align: center;
+}
+
+    .MainContainer p {
+        margin: 0;
+    }
+
+.Title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 32px;
+    /* or 58% */
+    letter-spacing: -0.5px;
+    /* Черный */
+    color: #000000;
+}
+
+.Background {
+    margin-top: 67.19px;
+    display: flex;
+    width: 1170px;
+    height: 807px;
+    background-color: #FAFBFE;
+    flex-direction: row;
+    box-shadow: 0px 2px 24px rgba(168, 175, 196, 0.3);
+}
+
+.Left {
+    width: 585px;
+    height: 807px;
+    background-color: #3D3BFF;
+    align-items:center;
+}
+
+.Label {
+    position: absolute;
+    top: 80px;
+    margin-left: 238px;
+    width: 110px;
+    height: 119px;
+    background-image: url("Label.png");
+}
+
+.Price {
+    align-items: center;
+    margin-top: 245px;
+}
+
+.Right {
+position: relative;
+    margin-top: 57px;
+    margin-left: 85px;
+    width: 424px;
+    height: 693px;
+    text-align: left;
+    flex-direction: column;
+}
+
+    .Right ul {
+        margin-top: 24.04px;
+        padding-left: 16px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: -0.5px;
+        color: #657195;
+    }
+
+    .Right li {
+        margin-bottom: 12px;
+        margin-top: 0;
+    }
+
+    .Right form {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        height: 219.78px;
+        margin-top: 27.97px;
+        margin-bottom: 19.98px;
+        width: 369.92px;
+    }
+
+    .Right button {
+        height: 69.93px;
+        width: 375px;
+        background-color: blue;
+        text-align: center;
+        font-family: Open Sans SemiBold;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: 0;
+    }
+
+::marker {
+    color: blue;
+}
+
+.RightTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height, or 118% */
+    letter-spacing: -0.5px;
+    color: #000000;
+}
+
+    .RightTitle p {
+        margin: 0;
+    }
+
+.RightText {
+    margin-top: 44.04px;
+}
+
+@keyframes loader {
+  0% {transform:rotate(-45deg)}
+  50%{transform:rotate(-135deg)}
+  100%{transform:rotate(-225deg)}}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  animation: loader 2s infinite ease-in-out;
+}
+.loader span {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 5px solid #0B1B48;
+}
